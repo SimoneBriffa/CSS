@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.image{
+    float: left;
+}
+
+.elements{
+    display: flex;
+}
+
+.purchase-info{
+    float:none;
+    width: 250px;
+    height: 250px;
+    padding: 15px 20px;
+}
+
+.container{
+    border: 5px solid black;
+    width: 800px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+h2{
+    margin: 0 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    background-color:beige;
+    padding: 20px;
+}
+
+.purchase-info-title{
+    display: flex;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+a:link{
+    color: black;
+}
+
+a:hover{
+    text-decoration: unset;
+}
+
+ul{
+    list-style: square;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.free_shipping{
+    text-transform: uppercase;
+    color: grey;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 7px;
+}
+
+.product-details{
+    padding-top: 15px;
+}
+
+a:link{
+    text-decoration: unset;
+}
+
+li{
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+}
+
+.squares{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+.square1{
+    background-color: black;
+}
+
+.square2{
+    background-color: blue;
+}
+
+.square3{
+    background-color: red;
+}
+
+.square4{
+    background-color: yellow;
+}
+
+.square5{
+    background-color: green;
+}
+
+.square6{
+    background-color: brown;
+}
+
+.ticket{
+    display: inline;
+    position: relative;
+    top: 40px;
+    left: 250px;
+    padding: 7px 15px;
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.purchase{
+    border-top: 5px solid black;
+    margin: auto auto;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px
+}
+
+.purchase:hover{
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+
